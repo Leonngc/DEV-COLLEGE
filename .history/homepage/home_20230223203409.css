@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family= Paytone +One & display=swap");
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+:root {
+  --paytone: "Paytone One", sans-serif;
+  --dark-violet: #121d46;
+  --pink: #ec518f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+#logo{
+  width: 10px;
+}
+
+section > h2{
+  font-family: Bebas Neue, cursive;
+  font-size: 28px;
+  padding: 12px;  
+}
+
+section{
+  margin-top: 100px;
+  text-align: center;
+}
+
+section > img{
+  width: 300px;
+}
+
+#dev-img{
+  width: 180px;
+}
+
+#skills-container{
+  display: flex;
+  margin: 20px;
+}
+
+.skills-course{
+  padding: 20px;
+}

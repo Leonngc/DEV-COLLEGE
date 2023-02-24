@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family= Paytone +One & display=swap");
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+:root {
+  --paytone: "Paytone One", sans-serif;
+  --dark-violet: #121d46;
+  --pink: #ec518f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100vw;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+
+#logo {
+  width: 400px;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+#alien {
+  width: 230px;
+  margin-top: 30px;
+  margin-left: 200px;
+  max-width: 100vw;
+}
+
+p {
+  margin-left: 37px;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Bebas Neue, cursive;
+}
+
+#button-container{
+  padding: ;
+}
+
+button {
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 23px;
+  border-radius: 30px;
+  border: none;
+  width: 400px;
+  box-shadow: 10px 10px var(--pink);
+  background-color: var(--dark-violet);
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: var(--paytone);
+  font-weight: bolder;
+}
+
+button:hover {
+  height: 90px;
+  box-shadow: 12px 15px var(--pink);
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+button:active {
+  transform: scale(0.9, 0.9);
+}
+
+@media screen and (min-width: 800px) {
+  #logo {
+    width: 400px;
+  }
+
+  #alien {
+    width: 400px;
+    margin-left: 600px;
+    margin-top: 70px;
+    display: inline-block;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 34px;
+    margin-left: 50px;
+  }
+
+  button {
+    margin-left: 70px;
+    width: 600px;
+    padding-bottom: 30px;
+  }
+}
