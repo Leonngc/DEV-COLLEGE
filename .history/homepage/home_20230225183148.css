@@ -17,12 +17,13 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body{
-  overflow-x: hidden; 
+ overflow-x: hidden; 
+  width: 100vw;
   max-width: 100vw;
+
 }
 
 #logo{
@@ -109,7 +110,7 @@ footer{
   color: white;
   font-family: Bebas Neue;
   font-size: 22px;
-  max-width: 100vw;
+  width: 100vw;
 }
 
 footer > p > a{
