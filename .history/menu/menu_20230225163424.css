@@ -20,9 +20,8 @@
 header{
     background-color: var(--cyan);
     height: 200px;
-    width: 100vw;
     max-width: 100vw;
-    
+    width: 100vw;
 }
 
 #logo-container{
@@ -48,7 +47,7 @@ header{
 
 
 #links-menu{
-  display: none;
+  display: m;
   background-color: white;
   position: absolute;
   width: 100vw;

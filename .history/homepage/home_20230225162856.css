@@ -55,7 +55,6 @@ footer{
   color: white;
   font-family: Bebas Neue;
   font-size: 22px;
-  width: 100vw;
 }
 
 footer > p > a{
@@ -94,7 +93,7 @@ footer > p > a{
 }
 
 #robot-img{
-  left: 365px;
+  left: 385px;
   width: 100px;
   position: fixed;
 }
@@ -109,11 +108,6 @@ footer > p > a{
   }
 
 #skills-container{
-  align-items: center;
-  justify-content: center;
-}
-
-h2{
-  font-size: 40px;
+  
 }
 }
