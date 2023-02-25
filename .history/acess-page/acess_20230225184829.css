@@ -16,7 +16,6 @@
   margin: 0;
 }
 
-
 main {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +42,7 @@ p {
   font-family: Bebas Neue, cursive;
 }
 
-#button-container{
+#button-container {
   padding: 14px;
   margin: auto;
 }
