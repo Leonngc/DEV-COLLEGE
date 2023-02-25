@@ -16,9 +16,6 @@
   margin: 0;
 }
 
-body{
-  overflow: hidden;
-}
 
 #logo{
   width: 10px;
@@ -86,7 +83,7 @@ footer > p > a{
 
 #ling-img{
   margin-top: 25px;
-  width: 350px;
+  width: 30px;
 }
 
 #robot-img{
