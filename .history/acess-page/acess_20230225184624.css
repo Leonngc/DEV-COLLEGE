@@ -20,7 +20,7 @@
 main {
   display: flex;
   flex-wrap: wrap;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #logo {
