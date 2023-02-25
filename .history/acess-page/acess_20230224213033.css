@@ -48,7 +48,7 @@ p {
 
 #button-container{
   padding: 14px;
-  margin: auto;
+  -ms-text-combine-horizontal: ;
 }
 
 button {
