@@ -17,7 +17,7 @@
 }
 
 body{
- overflow-x: hidden; 
+  scrollbar-color: var(--dark-violet); 
  width: 100vw;
   max-width: 100vw;
 
@@ -93,7 +93,8 @@ footer > p > a{
 }
 
 #robot-img{
-  left: 385px;
+  display: flex;
+  
   width: 100px;
   position: fixed;
 }

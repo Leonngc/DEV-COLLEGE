@@ -20,8 +20,6 @@
 header{
     background-color: var(--cyan);
     height: 200px;
-    max-width: 100vw;
-    width: 100vw;
 }
 
 #logo-container{
@@ -36,13 +34,11 @@ header{
 #menu-button{
   background-color: #33cccc00;
   border: none;
-  margin: 15px;
+  margin: 20px;
   position: relative;
-  left: 410px;
+  left: 420px;
   bottom: 5px;
-  font-size: 42px;
-  color: white;
-
+  fo
 }
 
 
