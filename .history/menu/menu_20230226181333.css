@@ -49,28 +49,22 @@ header{
   transition: 3s;
 }
 
-#menu{
-  position: absolute;
-  height: 0px;
-  background-color: white;
-  transition: .6s ease-out;
-  top: 60px;
-  z-index: 1000;
-}
 
-#menu:active{
-  height: calc(100vh - 70px);
-  
-}
 
 #links-menu{
   display: none;
+  position: absolute;
   background-color: rgb(255, 255, 255);
   width: 100vw;
   text-align: center;
-  margin-top: 110px;
+  height: 100px;
+  margin-top: 30px;
+  transition: .4s;
 }
 
+#links-menu:active{
+ height: calc(100vh - 120px);
+}
 
 
 

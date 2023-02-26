@@ -50,21 +50,23 @@ header{
 }
 
 #menu{
+  display: block;
   position: absolute;
   height: 0px;
   background-color: white;
-  transition: .6s ease-out;
+  transition: .6s;
   top: 60px;
   z-index: 1000;
 }
 
 #menu:active{
-  height: calc(100vh - 70px);
+  height: calc(100vh - 400px);
   
 }
 
 #links-menu{
   display: none;
+  position: absolute;
   background-color: rgb(255, 255, 255);
   width: 100vw;
   text-align: center;

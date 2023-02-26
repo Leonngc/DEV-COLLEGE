@@ -53,14 +53,16 @@ header{
   position: absolute;
   height: 0px;
   background-color: white;
-  transition: .6s ease-out;
+  transition: height .6s ease-out;
   top: 60px;
   z-index: 1000;
+  transform-origin: top;
+  transform: scaleY(0);
 }
 
 #menu:active{
   height: calc(100vh - 70px);
-  
+  transform: scaleY(1);
 }
 
 #links-menu{
