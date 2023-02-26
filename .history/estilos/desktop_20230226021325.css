@@ -1,0 +1,17 @@
+@media screen and (min-width: 750px){
+    p{
+      text-align: center;
+    }
+  
+  #skills-container{
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h2{
+    font-size: 40px;
+  }
+ #skills-container{
+  display: ;
+ }
+  }

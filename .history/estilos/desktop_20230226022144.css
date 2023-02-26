@@ -1,0 +1,42 @@
+@media screen and (min-width: 750px){
+    p{
+      text-align: center;
+    }
+  
+  #skills-container{
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section > h2{
+    font-size: 36px;
+  }
+ #skills-container{
+  display: flex;
+ }
+
+ .skills-course{
+  margin: 26px;
+  font-size: 30px;
+ }
+
+ #tec-img{
+  width: 400px;
+ }
+
+ #dev-img{
+  width: 320px;
+ }
+
+ #ling-img{
+  width: 320px;
+ }
+
+ #robot-img{
+  width: 170px;
+  position: fixed;
+  display: flex;
+  float: left;
+
+}
+  }
