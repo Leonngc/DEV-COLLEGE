@@ -37,13 +37,13 @@ header{
 #menu-button{
   background-color: #33cccc00;
   border: none;
-  margin-right: 10px;
-  max-width: 100vw;
-  position: static;
-  display: flex;
-  float: right;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
+  margin: 15px;
+  margin-right: 39px;
+  position: relative;
+  left: 320px;
+  bottom: 5px;
+  font-size: 42px;
+  color: white;
 
 }
 

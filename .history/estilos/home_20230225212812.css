@@ -119,8 +119,9 @@ footer > p > a{
 
 
 
-#skills-container{ 
-  margin-left: 18px;
+#skills-container{
+  
+  margin: auto;
   padding: 20px;
 }
 

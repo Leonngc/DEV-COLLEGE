@@ -119,15 +119,20 @@ footer > p > a{
 
 
 
-#skills-container{ 
-  margin-left: 18px;
+#skills-container{
+  display: flex;
+  margin: auto;
   padding: 20px;
 }
 
+.skills-course{
+  padding: 20px;
+}
 
 .skills-course > li{
   text-align: left;
-  font-size: 1.1em;
+  font-size: 16px;
+  
   font-family: var(--paytone);
   font-weight: bold;
   color: var(--cyan);

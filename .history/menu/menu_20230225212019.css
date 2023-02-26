@@ -39,9 +39,9 @@ header{
   border: none;
   margin-right: 10px;
   max-width: 100vw;
-  position: static;
-  display: flex;
-  float: right;
+  position: relative;
+  left: 300px;
+  bottom: 5px;
   font-size: 40px;
   color: rgb(255, 255, 255);
 

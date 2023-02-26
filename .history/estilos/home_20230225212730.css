@@ -119,11 +119,15 @@ footer > p > a{
 
 
 
-#skills-container{ 
-  margin-left: 18px;
+#skills-container{
+  
+  margin: auto;
   padding: 20px;
 }
 
+.skills-course{
+  padding: 22px;
+}
 
 .skills-course > li{
   text-align: left;
