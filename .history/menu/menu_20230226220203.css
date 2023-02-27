@@ -94,12 +94,12 @@ header{
   #desktop-menu{
     display: flex;
     list-style: none;
-    
+    top: 40px;
   }
 
   .link-desktop{
     padding: 10px;
-    font-size: 20px; 
+    font-size: 20px;
     
   }
 

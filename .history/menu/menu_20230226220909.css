@@ -91,19 +91,19 @@ header{
     display: none;
   }
 
-  #desktop-menu{
+  #menu{
     display: flex;
     list-style: none;
-    
+    background-color: red;
   }
 
-  .link-desktop{
+  .nav-link{
     padding: 10px;
     font-size: 20px; 
     
   }
 
-  .link-desktop > a{
+  .nav-link > a{
     text-decoration: none;
     background-color: #289f9f7b;
     color: white;
@@ -112,7 +112,8 @@ header{
     font-family: Bebas neue, cursive;
   }
 
-  .link-desktop > a:hover{
+  
+  .nav-link > a:hover{
     transition: .3s;
     font-size: 22px;
     text-decoration: underline;

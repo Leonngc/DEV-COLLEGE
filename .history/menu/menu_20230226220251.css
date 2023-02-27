@@ -94,7 +94,6 @@ header{
   #desktop-menu{
     display: flex;
     list-style: none;
-    
   }
 
   .link-desktop{

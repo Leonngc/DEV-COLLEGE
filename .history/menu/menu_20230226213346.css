@@ -67,7 +67,6 @@ header{
 #nav:active #menu{
   height: calc(100vh - 20px);
   visibility: visible;
-  overflow-y: auto;
 }
 
 .nav-link{
@@ -94,12 +93,11 @@ header{
   #desktop-menu{
     display: flex;
     list-style: none;
-    
   }
 
   .link-desktop{
     padding: 10px;
-    font-size: 20px; 
+    font-size: 20px;
     
   }
 
