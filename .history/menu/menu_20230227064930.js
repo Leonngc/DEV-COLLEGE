@@ -1,8 +1,8 @@
 const menuButton = document.getElementById('menu-button');
 
-menuButton.addEventListener('click', event =>{
+menuButton.addEventListener('click', event() =>{
       const nav = document.getElementById('nav');
-      nav.classList.toggle('active');
+    nav.classList.toggle('active');
 }
 );
 menuButton.addEventListener('touchstart', event =>{
