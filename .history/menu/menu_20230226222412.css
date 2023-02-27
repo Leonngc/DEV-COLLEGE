@@ -91,13 +91,10 @@ header{
     display: none;
   }
 
-  header{
-    height: 160px;
-  }
-
   #desktop-menu{
     display: flex;
     list-style: none;
+    top: 50px;
   }
 
   .link-desktop{

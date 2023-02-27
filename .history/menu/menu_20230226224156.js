@@ -1,7 +1,7 @@
 const menuButton = document.getElementById('menu-button');
 
-function toggleMenu(event){
-    if(event.type === 'touchstart') event.preventDefault();
+function toggleMenu(ev){
+    if(ev.type === 'touchstart') event.stopPropagation();
     const nav = document.getElementById('nav');
     nav.classList.toggle('active');
 }
