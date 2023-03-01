@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+
+:root {
+  --paytone: "Paytone One", sans-serif;
+  --dark-violet: #121d46;
+  --pink: #ec518f;
+  --cyan:#33CCCC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cyan);
+    height: 120px;
+    width: 100vw;
+    max-width: 100vw;
+    
+}
+
+#logo-container{
+  text-align: center;
+}
+
+#logo{
+  margin-top: 20px;
+  width: 130px;
+}
+
+#nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Bebas Neue, cursive;
+  background-color: white;
+  height: 8vh;
+}
+
+#menu-mobile{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 50vw;
+  height: 92vh;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: ;
+}
+
+.nav-link{
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.menu-burguer{
+  display: none;
+  cursor: pointer;
+}
+
+.menu-burguer div{
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.nav-link > a{
+  text-decoration: none;
+  font-family: Bebas Neue, cursive;
+  font-size: 22px;
+  color: #121d46;
+}
+
+#desktop-menu{
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  #menu-button{
+    display: none;
+  }
+
+  header{
+    height: 160px;
+  }
+
+  #desktop-menu{
+    display: flex;
+    list-style: none;
+  }
+
+  .link-desktop{
+    padding: 10px;
+    font-size: 20px; 
+    
+  }
+
+  .link-desktop > a{
+    text-decoration: none;
+    background-color: #289f9f7b;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: Bebas neue, cursive;
+  }
+
+  .link-desktop > a:hover{
+    transition: .3s;
+    font-size: 22px;
+    text-decoration: underline;
+    background-color: #289f9fa7;
+  }
+
+  button > #robot-img{
+    left: 85vw;
+  }
+
+  #call-chatbot :hover{
+    cursor: pointer;
+ 
+}
+}
