@@ -67,7 +67,7 @@ margin-top: 20px;
 .menu-burguer > div{
   width: 36px;
   height: 3px;
-  background-color: #fffefe;
+  background-color: #302e2e;
   margin: 8px;
   transition: 0.3s;
 }
