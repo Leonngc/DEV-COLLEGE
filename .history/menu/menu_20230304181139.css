@@ -53,6 +53,7 @@ margin-top: 20px;
 .menu-mobile li{
   letter-spacing: 3px;
   margin-left: 32px;
+  background-color: #d1dcdcaf;
 }
  .menu-mobile li > a{
   text-decoration: none;
@@ -62,8 +63,7 @@ margin-top: 20px;
  }
 
  .menu-mobile li > a:hover{
-  color: white;
-  font-size: 25px;
+  color: red;
  }
 .menu-burguer{
   cursor: pointer;
@@ -92,30 +92,23 @@ button > #robot-img{
     overflow-x: hidden;
   }
 
-  button > #robot-img{
-    left: 74vw;
-  }
-
   .menu-mobile{
     position: absolute;
     top: 20vh;
     right: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 90vh;
     background-color: white;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
-    margin: 0;
-    z-index: 1000;
   }
 
   .menu-mobile li{
     margin-left: 0;
     opacity: 0;
-    margin: 12px;
   }
 
   .menu-burguer{
