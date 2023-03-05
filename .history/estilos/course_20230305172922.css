@@ -18,7 +18,7 @@
 }
 
 #logo{
-    width: 170px;
+    width: 270px;
     margin: auto;
 }
 
@@ -52,8 +52,8 @@ h3{
 
 p{
     font-family: sans-serif;
-    font-size: 25px;
-    width: 45vw;
+    font-size: 20px;
+    width: 40vw;
     margin: auto;
     text-align: justify;
     color: #121d46;
@@ -102,7 +102,7 @@ button {
     color: white;
     text-align: center;
     font-family: Bebas Neue, sans-serif;
-    font-size: 23px; 
+    font-size: 20px; 
   }
 
   footer  a{
@@ -112,5 +112,5 @@ button {
   }
 
   footer  a:hover{
-    font-size: 25px;
+    font-size: 23px;
   }
