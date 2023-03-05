@@ -86,12 +86,12 @@ img{
 
 footer{
     background-color: aqua;
-    text-align: center;
+    font-size: 14px;
+    font-family: Bebas Neue, cursive;
 }
 
 footer > p{
-     font-size: 23px;
-    font-family: Bebas Neue, cursive;
+    
 }
 
 @media screen and (max-width:800px){

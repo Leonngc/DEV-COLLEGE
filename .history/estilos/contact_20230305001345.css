@@ -86,11 +86,10 @@ img{
 
 footer{
     background-color: aqua;
-    text-align: center;
 }
 
 footer > p{
-     font-size: 23px;
+     font-size: 14px;
     font-family: Bebas Neue, cursive;
 }
 

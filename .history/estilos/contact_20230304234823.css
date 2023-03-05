@@ -55,17 +55,6 @@ p{
     color: var(--dark-violet);
 }
 
-p > a{
-    color: var(--pink);
-    text-decoration: none;
-    transition: .3s;
-}
-
-p > a:hover{
-    text-decoration: underline;
-    font-size: 28px;
-}
-
 #social-container > button{
  background-color: #ffffff00; 
  border: none;
@@ -84,38 +73,6 @@ img{
     cursor: pointer;
 }
 
-footer{
-    background-color: aqua;
-    text-align: center;
-}
-
-footer > p{
-     font-size: 23px;
-    font-family: Bebas Neue, cursive;
-}
-
-@media screen and (max-width:800px){
-    #logo{
-        width: 120px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: 22px;
-        width: 90vw;
-        padding: 12px;
-    }
-
-    img{
-        width: 80vw;
-        }
-
-    #bot-image{
-        width: 120px;
-    }
-
-    p > a:hover{
-        font-size: 23px;
-    }
+@media screen and(min-width){
+    
 }

@@ -85,13 +85,7 @@ img{
 }
 
 footer{
-    background-color: aqua;
-    text-align: center;
-}
-
-footer > p{
-     font-size: 23px;
-    font-family: Bebas Neue, cursive;
+    background-color: var();
 }
 
 @media screen and (max-width:800px){

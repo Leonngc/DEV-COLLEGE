@@ -84,16 +84,6 @@ img{
     cursor: pointer;
 }
 
-footer{
-    background-color: aqua;
-    text-align: center;
-}
-
-footer > p{
-     font-size: 23px;
-    font-family: Bebas Neue, cursive;
-}
-
 @media screen and (max-width:800px){
     #logo{
         width: 120px;
@@ -113,9 +103,5 @@ footer > p{
 
     #bot-image{
         width: 120px;
-    }
-
-    p > a:hover{
-        font-size: 23px;
     }
 }
