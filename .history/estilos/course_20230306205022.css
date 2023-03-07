@@ -17,11 +17,6 @@
     box-sizing: border-box;
 }
 
-body{
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
 #logo{
     width: 170px;
     margin: auto;
@@ -126,16 +121,7 @@ button {
     }
 
     p{
-      font-size: 23px;
+      font-size: 20px;
       width: 90vw;
-    }
-
-    button{
-      margin: auto;
-      margin-top: 20px;
-    }
-
-    h3{
-      width: 80vw;
     }
   }
