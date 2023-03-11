@@ -39,6 +39,9 @@
     </header>
 
     <main>
+        <div id="chatbot-container">
+            <button id="call-chatbot"><img src="images/robot.png" alt="Chatbot" id="robot-img" title="Converse com o DevEase, nosso querido chatbot"></button>
+        </div>
         <section>
             <h2>A sua nova escola de programação</h2>
             <img src="images/linguagens.png" alt="" id="tec-img">
@@ -86,7 +89,8 @@
         <p>Projeto de site por <a href="">Nicolas Leon</a></p> 
     </footer>
 
-    <script>
+
+    <script> //
         window.addEventListener('mouseover', initLandbot, { once: true });
         window.addEventListener('touchstart', initLandbot, { once: true });
         var myLandbot;
