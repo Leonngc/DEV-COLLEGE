@@ -79,14 +79,13 @@ h3{
 
 @media screen and (max-width: 800px){
     body{
-        overflow-x: hidden;
-        width: 100vw;
+        overflow-x: ;
     }
-       .intro > p{
+    
+    .intro > p{
         width: 80vw;
-        font-size: 16px;
+        font-size: 20px;
         text-align: start;
-        font-family: Bebas Neue;
     }
 
     img{

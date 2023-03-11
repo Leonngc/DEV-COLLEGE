@@ -40,20 +40,18 @@ h2{
     font-size: 32px;
 }
 .container{
-    margin: auto;
-
+    margin: 30px; 
     text-align: center;
 }
 
 p{
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     letter-spacing: 2px;
     font-weight:300;
     padding: 30px;
     width: 52vw;
-    
+    margin: auto;
     color: var(--dark-violet);
 }
 
