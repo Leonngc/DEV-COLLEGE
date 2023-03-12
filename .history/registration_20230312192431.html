@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/registration.css" />
+    <title>Matricule-se</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+        <h3>Preencha os dados</h3>
+        <form action="">
+          <input
+            type="text"
+            id="username"
+            class="datas"
+            required
+            minlength="1"
+            maxlength="99"
+            placeholder="Nome Completo"
+          />
+
+          <input
+            type="email"
+            name="emailUser"
+            id="userEmail"
+            class="datas"
+            required
+            placeholder="Endereço de email válido"
+          />
+
+          <label for="phone">Insira seu número no formato exigido</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            class="datas"
+            pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"
+            required
+            maxlength="13"
+            placeholder="99-9999-9999"
+          />
+
+          
+          <input type="date" name="" id="birthday" required /><label for="birthday">Insira sua data de nascimento</label>
+
+          
+          <div class="plan-container">
+            <p>Qual plano você pretende assinar:</p>
+              <label for="premium"class="plan" >Premium Study</label
+              ><input type="radio" name="plan" id="premium" checked />
+              <label for="future"class="plan" >Dev Future</label
+              ><input type="radio" name="plan" id="future" />
+              <label for="light" class="plan" id>Dev Light</label
+              ><input type="radio" name="plan" id="light" />
+          </div>
+
+          <p>
+            *se caso você escolheu o Dev Ligh, qual curso você pretende fazer:
+          </p>
+          <select name="course" id="course">
+            <option value="Dev Web" id="webDev">Desenvolvimento Web</option>
+            <option value="Back-End" id="backDev">Back-end</option>
+            <option value="Python e Dados" id="pythonDev">
+              Python e Dados
+            </option>
+            <option value="Jogos com C#" id="gameDev">Jogos com C#</option>
+            <option value="UX/UI design" id="designer">UX/UI Designer</option>
+            <option value="Marketing Digital" id="marketing">
+              Marketing Digital
+            </option>
+          </select>
+
+          <input type="button" value="Enviar" />
+        </form>
+    
+
+      <a href="home.html">Ir para página inicial</a>
+    </main>
+  </body>
+</html>
