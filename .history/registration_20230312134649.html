@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/registration.css">
+    <title>Matricule-se</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <fieldset>
+            <h3>Preencha os dados</h3>
+            <form action="">
+                <input type="text" id="username" required minlength="1" maxlength="99" placeholder="Nome Completo">
+
+                <input type="email" name="emailUser" id="userEmail" required placeholder="Endereço de email válido">
+
+              <label for="phone">Insira seu número no formato exigido</label>  <input type="tel" name="phone" id="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required maxlength="13" placeholder="99-9999-9999">
+
+                <label for="birthday">Insira sua data de nascimento</label><input type="date" name="" id="birthday" required>
+                
+                <p>Qual plano você pretende assinar:</p> 
+                <label for="premium">Premium Study</label><input type="radio" name="plan" id="premium" checked>
+                <label for="future">Dev Future</label><input type="radio" name="plan" id="future">
+                <label for="premium">Dev Light</label><input type="radio" name="plan" id="light">
+
+                <p>*se caso você escolheu o Dev Ligh, qual curso você pretende fazer:</p> 
+                <select name="course" id="course">
+                    <option value="Dev Web">Desenvolvimento Web</option>
+                    <option value="Back-End">Back-end</option>
+                    <option value="Python e Dados">Python e Dados</option>
+                    <option value="Jogos com C#">Jogos com C#</option>
+                    <option value="UX/UI design">UX/UI Designer</option>
+                    <option value="Marketing Digital">Marketing Digital</option>
+                </select>
+
+                <input type="button" value="Enviar">
+            </form>
+        </fieldset>
+
+        <a href="home.html">Ir para página inicial</a>
+    </main>
+</body>
+</html>
