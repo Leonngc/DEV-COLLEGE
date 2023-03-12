@@ -90,12 +90,12 @@ button > #robot-img{
  
 }
 @media screen and (max-width: 999px) {
+  body
   button > #robot-img{
     left: 74vw;
   }
 
   .menu-mobile{
-    display: none;
     position: absolute;
     top: 18vh;
     right: 0;
@@ -109,7 +109,6 @@ button > #robot-img{
     transition: transform 0.3s ease-in;
     margin: 0;
     z-index: 10000;
-    overflow-x: hidden;
   }
 
   .menu-mobile li{
@@ -125,7 +124,7 @@ button > #robot-img{
 
 .menu-mobile.active{
   transform: translateX(0);
-  display: flex;
+  overflow-x: hidden;
 }
 
 @keyframes navLinkFade{

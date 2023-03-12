@@ -125,7 +125,7 @@ button > #robot-img{
 
 .menu-mobile.active{
   transform: translateX(0);
-  display: flex;
+  display: block;
 }
 
 @keyframes navLinkFade{

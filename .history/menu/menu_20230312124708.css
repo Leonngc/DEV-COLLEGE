@@ -95,7 +95,6 @@ button > #robot-img{
   }
 
   .menu-mobile{
-    display: none;
     position: absolute;
     top: 18vh;
     right: 0;
@@ -125,7 +124,7 @@ button > #robot-img{
 
 .menu-mobile.active{
   transform: translateX(0);
-  display: flex;
+  overflow-x: hidden;
 }
 
 @keyframes navLinkFade{
